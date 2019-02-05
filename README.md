@@ -1,5 +1,5 @@
 # Arduino Ir Clock
-
+<b>https://youtu.be/RtYUacUfc_U</b>
 <b>Arduino Nano + DS3231 + 1602 LCD + piezoelectric buzzer + VS1838 Infrared receiver.</b>
 
 Overall view
