@@ -190,7 +190,7 @@ void _09 ( void )
 /////////////////////////////////////////////////////////////////////////////////
 void _10 ( void )
 {
-  if ( DirectSwitch ) { lcd.noBlink(); return; }
+  if ( DirectSwitch ) return;
   EventID = TemporaryEventID;
   lcd.cursor();
 }

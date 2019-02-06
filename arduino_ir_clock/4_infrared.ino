@@ -1,6 +1,6 @@
 // Infrared Receiver
 
-static boolean DirectSwitch;          // direct response switch
+static boolean DirectSwitch;
 static unsigned long CurrentValue;
 static unsigned long RepeatCounter;
 
