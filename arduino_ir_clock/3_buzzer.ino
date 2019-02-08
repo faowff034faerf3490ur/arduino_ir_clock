@@ -8,6 +8,7 @@ static uint8_t tune = 50;
 static boolean EdgeTriggerSwitch = OFF;
 
 void confirmation_sound( void ) {
+  if ( !SignalFlag ) return;
   static unsigned long pms;
   if ( EdgeTriggerSwitch ) {
     pms = millis();
