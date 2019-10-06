@@ -11,10 +11,12 @@ void infrared_checker ( void )
   {
     if ( results.decode_type == NEC )
     {
-      DirectSwitch = ON;
-      if ( results.bits  ) EdgeTriggerSwitch = ON;
-      if ( results.bits  ) CurrentValue = results.value;
-      else RepeatCounter++;
+      if ( ( results.value & _VALID ) == _VALID ) {
+        DirectSwitch = ON;
+        if ( results.bits  ) EdgeTriggerSwitch = ON;
+        if ( results.bits  ) CurrentValue = results.value;
+        else RepeatCounter++;
+      }
     } else RepeatCounter = 0;
     irrecv.resume();
   }

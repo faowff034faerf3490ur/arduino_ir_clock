@@ -1,7 +1,7 @@
 //    Arduino Table Clock ( IR adjust & piezoelectric passive buzzer )
 //
-//    2019 Jan 28 Mon
-//    MT 21:51:37 19˚C
+//    2019 Oct 06 Sun'
+//    PM 10:16:13 26˚C
 //
 //    https://youtu.be/RtYUacUfc_U
 
